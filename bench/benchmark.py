@@ -3,6 +3,7 @@ import gemmagoogle
 import openrouter
 
 import pandas as pd
+import statistics
 
 import random, time
 
@@ -46,11 +47,12 @@ preguntas = [
 ]
 
 
-TEST_MODE = True
+TEST_MODE = False
 
 def bench(iterations = 10):
     retData = {}
-
+    timesElapsed = []
+    requestsDone = 0
     for providerName in providers:
         benchData = []
         for i in range(iterations):
@@ -59,10 +61,25 @@ def bench(iterations = 10):
             else:
                 print(f"[{providerName}] - Making question {i + 1} out of {iterations}")
                 start = time.monotonic()
+
                 resp = providers[providerName](preguntas[i%len(preguntas)])
+                if resp == "ERROR":
+                    print(f"[{providerName}] Request failed!")
                 elapsed = time.monotonic() - start
-                benchData.append(resp, elapsed)
+                benchData.append((resp, elapsed))
+
+                timesElapsed.append(elapsed)
+                requestsDone += 1
+
                 time.sleep(5)
+
+                estimatedTime = ((iterations * len(providers)) - requestsDone) * (statistics.mean(timesElapsed) + 5)
+
+                minutos = int(estimatedTime // 60)
+                segundos = estimatedTime % 60
+
+
+                print(f"Tiempo restante aproximado: {minutos:02d} Minutos y {segundos:05.2f} Segundos")
         retData[providerName] = benchData
     return retData
 
