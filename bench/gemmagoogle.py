@@ -16,3 +16,7 @@ def ask(text):
     except Exception as e:
         print(e)
         return "ERROR"
+    
+
+if __name__ == "__main__":
+    print(ask(input("Ask gemma: >>> ")))
