@@ -1,0 +1,185 @@
+{
+  "quiz_name": "Estudio Potenciado con IA - Quiz",
+  "questions": [
+    {
+      "question": "¿Cuál es una limitación clave del método de estudio tradicional, según el texto?",
+      "correct": 1,
+      "answers": [
+        {
+          "answer": "Su adaptación constante a los avances tecnológicos."
+        },
+        {
+          "answer": "Su naturaleza repetitiva y poco dinámica."
+        },
+        {
+          "answer": "Su enfoque en el aprendizaje activo."
+        },
+        {
+          "answer": "Su capacidad para mantener la concentración del alumno."
+        }
+      ]
+    },
+    {
+      "question": "¿Cuál es el objetivo principal del proyecto de investigación descrito en el texto?",
+      "correct": 3,
+      "answers": [
+        {
+          "answer": "Criticar los métodos de estudio actuales."
+        },
+        {
+          "answer": "Promover el uso exclusivo de herramientas digitales."
+        },
+        {
+          "answer": "Conocer las ventajas del estudio digital y planificar una plataforma de estudio."
+        },
+        {
+          "answer": "Demostrar la superioridad de la inteligencia artificial en la educación."
+        }
+      ]
+    },
+    {
+      "question": "¿Qué papel juegan las LLMs (Large Language Models) en el desarrollo del proyecto?",
+      "correct": 0,
+      "answers": [
+        {
+          "answer": "Son la base de la parte lógica del proyecto, permitiendo la generación de texto y preguntas."
+        },
+        {
+          "answer": "Se utilizan principalmente para el desarrollo del apartado visual."
+        },
+        {
+          "answer": "Son herramientas para la investigación documental."
+        },
+        {
+          "answer": "Se emplean para realizar pruebas y mejoras en la plataforma."
+        }
+      ]
+    },
+    {
+      "question": "Según el texto, ¿qué problema presenta el acceso a las LLMs para el desarrollo del proyecto?",
+      "correct": 2,
+      "answers": [
+        {
+          "answer": "Su complejidad técnica."
+        },
+        {
+          "answer": "Su falta de precisión en la generación de preguntas."
+        },
+        {
+          "answer": "Suelen ser de acceso de pago o muy restringido."
+        },
+        {
+          "answer": "Su incompatibilidad con las herramientas de desarrollo existentes."
+        }
+      ]
+    },
+    {
+      "question": "¿Cuál de los siguientes NO es un objetivo específico del trabajo, según el texto?",
+      "correct": 1,
+      "answers": [
+        {
+          "answer": "Estudiar la viabilidad del estudio digital."
+        },
+        {
+          "answer": "Desarrollar un sistema de recompensas físicas para los alumnos."
+        },
+        {
+          "answer": "Desarrollar una demo técnica para generar contenido."
+        },
+        {
+          "answer": "Desarrollar el apartado visual de la plataforma."
+        }
+      ]
+    },
+    {
+      "question": "¿Qué se busca lograr con el desarrollo del apartado visual del proyecto?",
+      "correct": 3,
+      "answers": [
+        {
+          "answer": "Reducir los costos de desarrollo."
+        },
+        {
+          "answer": "Simplificar la interfaz de usuario."
+        },
+        {
+          "answer": "Aumentar la velocidad de procesamiento."
+        },
+        {
+          "answer": "Demostrar cómo se mantendrá la atención del alumno y se le recompensará."
+        }
+      ]
+    },
+    {
+      "question": "En la metodología del proyecto, ¿qué se espera obtener de la investigación documental?",
+      "correct": 0,
+      "answers": [
+        {
+          "answer": "Información sobre la viabilidad del proyecto y cómo desarrollar una herramienta para mantener la atención del alumno."
+        },
+        {
+          "answer": "Un snippet de Python para acceder a LLMs de forma gratuita."
+        },
+        {
+          "answer": "Un programa que genere preguntas tipo test."
+        },
+        {
+          "answer": "Un análisis detallado de las redes sociales."
+        }
+      ]
+    },
+    {
+      "question": "¿Qué se entiende por 'frontend' en el contexto del desarrollo del apartado visual?",
+      "correct": 2,
+      "answers": [
+        {
+          "answer": "La base de datos del programa."
+        },
+        {
+          "answer": "El servidor donde se ejecuta la aplicación."
+        },
+        {
+          "answer": "La parte de la aplicación a la que accede el usuario, incluyendo la interfaz gráfica."
+        },
+        {
+          "answer": "El código fuente del programa."
+        }
+      ]
+    },
+    {
+      "question": "Según el texto, ¿qué caracteriza a las plataformas de estudio con IA existentes?",
+      "correct": 1,
+      "answers": [
+        {
+          "answer": "Son perfectas y cumplen todas las expectativas."
+        },
+        {
+          "answer": "Suelen ser demasiado sencillas, limitadas o requieren una suscripción."
+        },
+        {
+          "answer": "Ofrecen acceso gratuito a modelos de lenguaje avanzados."
+        },
+        {
+          "answer": "Se integran perfectamente con los métodos de estudio tradicionales."
+        }
+      ]
+    },
+    {
+      "question": "¿Qué concepto de psicología del aprendizaje se menciona en la bibliografía del texto?",
+      "correct": 3,
+      "answers": [
+        {
+          "answer": "Condicionamiento clásico."
+        },
+        {
+          "answer": "Aprendizaje observacional."
+        },
+        {
+          "answer": "Teoría cognitiva."
+        },
+        {
+          "answer": "Teoría del reforzamiento (Skinner)."
+        }
+      ]
+    }
+  ]
+}

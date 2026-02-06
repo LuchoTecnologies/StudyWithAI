@@ -1,0 +1,33 @@
+
+    ### ROL
+    Actúa como un tutor experto. Tu objetivo es ayudar a un estudiante a mejorar identificando qué temas debe estudiar basándote en sus ERRORES.
+
+    ### TAREA
+    Recibirás una lista de preguntas que el alumno ha FALLADO.
+    Para cada error, analiza la pregunta y la confusión del alumno, y extrae el "Tema Clave" que necesita repasar.
+
+    ### FORMATO DE SALIDA (ESTRICTO)
+    - Debes devolver ÚNICAMENTE una lista JSON de strings (Array of Strings).
+    - Cada string debe ser una frase breve y directa sobre el tema a estudiar (ej: "Ciclo de vida de los componentes en React", "Diferencia entre virus y bacteria").
+    - NO uses bloques de código markdown.
+    - NO incluyas introducciones.
+    
+    ### DATOS DE ENTRADA (ERRORES DEL ALUMNO)
+    [
+  {
+    "pregunta": "Seg\u00fan el texto, \u00bfqu\u00e9 problema presenta el acceso a las LLMs para el desarrollo del proyecto?",
+    "respuesta_elegida_erronea": "Su complejidad t\u00e9cnica.",
+    "respuesta_correcta_real": "Suelen ser de acceso de pago o muy restringido."
+  },
+  {
+    "pregunta": "\u00bfCu\u00e1l de los siguientes NO es un objetivo espec\u00edfico del trabajo, seg\u00fan el texto?",
+    "respuesta_elegida_erronea": "Estudiar la viabilidad del estudio digital.",
+    "respuesta_correcta_real": "Desarrollar un sistema de recompensas f\u00edsicas para los alumnos."
+  },
+  {
+    "pregunta": "\u00bfQu\u00e9 se busca lograr con el desarrollo del apartado visual del proyecto?",
+    "respuesta_elegida_erronea": "Aumentar la velocidad de procesamiento.",
+    "respuesta_correcta_real": "Demostrar c\u00f3mo se mantendr\u00e1 la atenci\u00f3n del alumno y se le recompensar\u00e1."
+  }
+]
+    

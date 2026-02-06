@@ -1,3 +1,5 @@
 .env
 venv
 bench/.env
+pdf2questions/test.pdf
+pdf2questions/test2.pdf
