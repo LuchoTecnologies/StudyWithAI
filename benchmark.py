@@ -2,6 +2,6 @@ import apifreellm
 import gemmagoogle
 
 models = {
-    "apifreellm": apifreellm.ask
-    "gemmagoogle": gemm
+    "apifreellm": apifreellm.ask,
+    "gemmagoogle": gemmagoogle.ask
 }

@@ -1,6 +1,8 @@
 import requests
 
-print("Sending request")
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 
 
@@ -9,11 +11,19 @@ def ask(input):
         "https://apifreellm.com/api/v1/chat",
         headers={
             "Content-Type": "application/json",
-            "Authorization": "Bearer apf_d7m5bmkkomji11h9l5itvq9j"
+            "Authorization": os.getenv('APIFREELLM')
         },
         json={
             "message": input
         }
     )
 
-    return response.json()["response"]
+    resp = response.json()
+    if resp["success"] == True:
+        return resp["response"]
+    else:
+        print(resp["error"])
+        return "ERROR"
+
+if __name__ == "__main__":
+    print(ask(input("Ask apifreellm: >>> ")))
