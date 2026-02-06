@@ -26,7 +26,7 @@ class Quiz(BaseModel):
 
 def loadQuiz():
     jsonquiz = ""
-    with open('quiz_ttt.json', 'r') as file:
+    with open('results/quiz_ttt.json', 'r') as file:
         jsonquiz = file.read()
     return Quiz.model_validate_json(jsonquiz)
 
@@ -114,7 +114,7 @@ def generateQuiz(feedback = None, save = True):
         quiz = Quiz.model_validate_json(clean_text)
 
         if save == True:
-            with open('quiz_ttt.json', 'w') as file:
+            with open('results/quiz_ttt.json', 'w') as file:
                 file.write(clean_text) 
             
         return quiz
@@ -174,7 +174,7 @@ def generateFeedback(quiz: Quiz, responses: List[int]):
     {json_errores}
     '''
 
-    with open("feedbackprompt.txt", 'w') as file:
+    with open("results/feedbackprompt.txt", 'w') as file:
         file.write(prompt)
 
     print(f"Generando feedback sobre {len(errores_para_analisis)} errores...")
