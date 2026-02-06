@@ -1,1 +1,1 @@
-#Study with AI
+# Study with AI
