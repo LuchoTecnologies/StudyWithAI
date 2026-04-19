@@ -15,19 +15,24 @@
     ### DATOS DE ENTRADA (ERRORES DEL ALUMNO)
     [
   {
-    "pregunta": "Seg\u00fan el texto, \u00bfqu\u00e9 problema presenta el acceso a las LLMs para el desarrollo del proyecto?",
-    "respuesta_elegida_erronea": "Su complejidad t\u00e9cnica.",
-    "respuesta_correcta_real": "Suelen ser de acceso de pago o muy restringido."
+    "pregunta": "Which of the following is NOT a standard feature listed for the 1983 Mercedes-Benz 190E?",
+    "respuesta_elegida_erronea": "Navigation System",
+    "respuesta_correcta_real": "Electrically Operated Sliding Roof"
   },
   {
-    "pregunta": "\u00bfCu\u00e1l de los siguientes NO es un objetivo espec\u00edfico del trabajo, seg\u00fan el texto?",
-    "respuesta_elegida_erronea": "Estudiar la viabilidad del estudio digital.",
-    "respuesta_correcta_real": "Desarrollar un sistema de recompensas f\u00edsicas para los alumnos."
+    "pregunta": "In the KE-Jetronic fuel injection system of the 190E 2.0, what part primarily regulates fuel flow mechanically?",
+    "respuesta_elegida_erronea": "The ECU",
+    "respuesta_correcta_real": "The throttle valve and air flow sensor plate"
   },
   {
-    "pregunta": "\u00bfQu\u00e9 se busca lograr con el desarrollo del apartado visual del proyecto?",
-    "respuesta_elegida_erronea": "Aumentar la velocidad de procesamiento.",
-    "respuesta_correcta_real": "Demostrar c\u00f3mo se mantendr\u00e1 la atenci\u00f3n del alumno y se le recompensar\u00e1."
+    "pregunta": "If the ECU (Electronic Control Unit) of a KE-Jetronic system fails, what is the MOST likely outcome?",
+    "respuesta_elegida_erronea": "The engine will not start at all.",
+    "respuesta_correcta_real": "The engine will start and run, but with an unstable idle and increased fuel consumption."
+  },
+  {
+    "pregunta": "What is the torque specification for tightening spark plugs?",
+    "respuesta_elegida_erronea": "25 Nm",
+    "respuesta_correcta_real": "20 Nm"
   }
 ]
     
