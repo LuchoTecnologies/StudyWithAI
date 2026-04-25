@@ -9,7 +9,7 @@ from typing import List, Optional
 
 testPdfFile = "pdf2questions/test2.pdf"
 
-IA_MODEL = "gemma-3-27b-it"
+IA_MODEL = "gemma-4-26b-a4b-it"#"gemma-3-27b-it"
 
 class QuizAnswer(BaseModel):
     answer: str = Field(description="Respuesta de pregunta")
